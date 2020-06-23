@@ -173,12 +173,12 @@ jQuery(document).ready(function(){
 	/* ---------------------------------------------------------------------- */
 	if($('#kodeCountdown').length){
 		var austDay = new Date();
-		austDay = new Date(2016, 6-1, 5,12,10);
+		austDay = new Date(2020, 6-1, 5,12,10);
 		jQuery('#kodeCountdown').countdown({until: austDay});
 		jQuery('#year').text(austDay.getFullYear());
 	}
 	if($('.countdown').length){
-		$('.countdown').downCount({ date: '08/08/2016 12:00:00', offset: +1 });
+		$('.countdown').downCount({ date: '21/06/2020 13:40:25', offset: +1 });
 	}
     /* ---------------------------------------------------------------------- */
 	/*	Click to Top 

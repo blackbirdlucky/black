@@ -2078,13 +2078,13 @@ blockquote {
 }
 .kode-newslatter form label::before {
     color: #ffffff;
-    content: "ï‡˜";
+    content: "\2603";
     cursor: pointer;
     font-family: FontAwesome;
     font-size: 25px;
     position: absolute;
     right: 20px;
-    top: 12px;
+    top: 4px;
 }
 .kode-newslatter form input[type="submit"] {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -6561,7 +6561,7 @@ input[type="week"],
 input[type="number"], input[type="email"],
  input[type="url"], input[type="search"], 
  input[type="tel"], input[type="color"], .uneditable-input{
-	 color:#fff;
+	 color:#000000;
  }
 /*
       ============================================================
