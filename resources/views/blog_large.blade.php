@@ -1,4 +1,5 @@
-    @extends('layouts.header')
+@extends('layouts.header')
+@extends('layouts.auth')
 @extends('layouts.footer')
 <!DOCTYPE html>
 <html lang="en">
@@ -344,47 +345,8 @@
     </div>
     <!--// Wrapper //-->
     <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header thbg-color">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Login To Your Account</h4>
-          </div>
-          <div class="modal-body">
-            <form class="kode-loginform">
-              <p><span>User Name</span> <input type="text" placeholder="User Name"></p>
-              <p><span>Password</span> <input type="password" placeholder="Password"></p>
-              <p><label><input type="checkbox"><span>Remember Me</span></label></p>
-              <p class="kode-submit"><a href="#">Lost Your Password</a> <input class="thbg-colortwo" type="submit" value="Sign in"></p>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="myModalTwo" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header thbg-color">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Register</h4>
-          </div>
-          <div class="modal-body">
-            <form class="kode-loginform">
-              <p><span>Email</span> <input type="text" placeholder="Email"></p>
-              <p><span>Password</span> <input type="password" placeholder="Password"></p>
-              <p><span>Retype Password</span> <input type="password" placeholder="Retype Password"></p>
-              <p><label><input type="checkbox"><span>Remember Me</span></label></p>
-              <p class="kode-submit"><a href="#">Lost Your Password</a> <input class="thbg-colortwo" type="submit" value="Sign Up"></p>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <!--// Wrapper //-->
-
+     @section('auth')
     <!-- jQuery (necessary for JavaScript plugins) -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

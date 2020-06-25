@@ -1,5 +1,6 @@
 @extends('layouts.header')
 @extends('layouts.footer')
+@extends('layouts.auth')
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,7 +19,7 @@
     <link href="css/color.css" rel="stylesheet">
     <link href="css/flexslider.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
-	<link href="css/jquery.bxslider.css" rel="stylesheet">    
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
 	<link href="css/prettyphoto.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
@@ -30,12 +31,12 @@
     <![endif]-->
   </head>
   <body>
-    
+
      <!--// Wrapper //-->
     <div class="kode-wrapper">
-       
+
 	   @section('mainbanner')
-	   
+
 	   <!--// Sub Header //-->
       <div class="kode-subheader subheader-height">
         <div class="container">
@@ -56,7 +57,7 @@
             <div class="row">
 
                 <div class="col-md-12">
-                  
+
 				  <div class="heading heading-12 kode-white margin-top30-bottom-80">
 					<p>О нас</p>
 					<h2><span class="left"></span>История создания<span class="right"></span></h2>
@@ -110,20 +111,20 @@
 
               </div>
             </div>
-        </section>	               
+        </section>
 				<!--TESTIMONIAL STYLE 1 END-->
                 </div>
 			   </div>
             </div>
         </section>
-		
-		
+
+
 		<!--// Page Content //-->
         <div class="kode-pagesection padding-top-bottom">
           <div class="container">
             <div class="row">
 
-                <div class="col-md-12">                  
+                <div class="col-md-12">
 				  	<div class="heading heading-12 margin-bottom-50">
 						<h2>Наши спонсоры</h2>
 						<p>Ты тоже можешь стать нашим партнером!</p>
@@ -132,7 +133,7 @@
         </div>
 		</div>
 		</div>
-		
+
 		<!--// Page Content //-->
         <div class="kode-pagesection padding-top-bottom">
           <div class="container">
@@ -153,9 +154,9 @@
             </div>
         </div>
         <!--// Page Content //-->
-		
-		
-		
+
+
+
 
       </div>
       <!--// Main Content //-->
@@ -178,12 +179,12 @@
         </div>
       </div>
       <!--// NewsLatter //-->
-	 
+
 	 @section('footer')
-	 
+
 </div>
     <!--// Wrapper //-->
-
+     @section('auth')
     <!-- jQuery (necessary for JavaScript plugins) -->
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>

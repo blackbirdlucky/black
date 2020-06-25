@@ -1,5 +1,6 @@
 @extends('layouts.header')
 @extends('layouts.footer')
+@extends('layouts.auth')
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -18,7 +19,7 @@
     <link href="css/color.css" rel="stylesheet">
     <link href="css/flexslider.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
-      
+
     <link href="css/responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -29,12 +30,12 @@
     <![endif]-->
   </head>
   <body>
-    
+
      <!--// Wrapper //-->
     <div class="kode-wrapper">
-       
+
 	   @section('mainbanner')
-	   
+
 	  <!--// Sub Header //-->
       <div class="kode-subheader subheader-height">
         <div class="container">
@@ -49,14 +50,14 @@
 
       <!--// Main Content //-->
       <div class="kode-content">
-		
-		
+
+
 		 <!--// Page Content //-->
         <section class="kode-pagesection margin-bottom-40">
           <div class="container">
             <div class="row">
-				
-				<div class="col-md-12">                  
+
+				<div class="col-md-12">
 				  <div class="heading heading-12 margin-top10-bottom30-flat">
 					<p>BLACKBETS</p>
 					<h2><span class="left"></span>Лучшие СНГ тренеры<span class="right"></span></h2>
@@ -108,13 +109,13 @@
                     </ul>
                   </div>
                 </div>
-				
-				
-                
 
-                
 
-                <div class="col-md-12">                  
+
+
+
+
+                <div class="col-md-12">
 				  <div class="heading heading-12 margin-top10-bottom30-flat">
 					<p>BLACKBETS</p>
 					<h2><span class="left"></span>Лучшие игроки с AWP <span class="right"></span></h2>
@@ -166,8 +167,8 @@
                     </ul>
                   </div>
                 </div>
-				
-				 <div class="col-md-12">                  
+
+				 <div class="col-md-12">
 				<div class="heading heading-12 margin-top10-bottom30-flat">
 					<p>BLACKBETS</p>
 					<h2><span class="left"></span>Игроки с невероятным аимом<span class="right"></span></h2>
@@ -196,7 +197,7 @@
                               <li><a href="#" class="fa fa-linkedin"></a></li>
                             </ul>
                             <div class="clearfix"></div>
-                            <h2><a href="#">s1mple</a></h2>                            
+                            <h2><a href="#">s1mple</a></h2>
                           </figcaption>
                         </figure>
                       </li>
@@ -209,7 +210,7 @@
                               <li><a href="#" class="fa fa-linkedin"></a></li>
                             </ul>
                             <div class="clearfix"></div>
-                            <h2><a href="#">Coldzera</a></h2>                            
+                            <h2><a href="#">Coldzera</a></h2>
                           </figcaption>
                         </figure>
                       </li>
@@ -222,18 +223,18 @@
                               <li><a href="#" class="fa fa-linkedin"></a></li>
                             </ul>
                             <div class="clearfix"></div>
-                            <h2><a href="#">ScreaM</a></h2>                            
+                            <h2><a href="#">ScreaM</a></h2>
                           </figcaption>
                         </figure>
                       </li>
                     </ul>
                   </div>
                 </div>
-				
-				
-				
-				
-				<div class="col-md-12">                  
+
+
+
+
+				<div class="col-md-12">
 				  <div class="heading heading-12 margin-top10-bottom30-flat">
 					<p>BLACKBETS</p>
 					<h2><span class="left"></span>ЛУЧШИЙ КАПИТАН СНГ<span class="right"></span></h2>
@@ -260,7 +261,7 @@
               </div>
             </div>
         </section>
-        <!--// Page Content //-->		
+        <!--// Page Content //-->
 
       </div>
       <!--// Main Content //-->
@@ -289,52 +290,14 @@
     </div>
     <!--// Wrapper //-->
     <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header thbg-color">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Login To Your Account</h4>
-          </div>
-          <div class="modal-body">
-            <form class="kode-loginform">
-              <p><span>User Name</span> <input type="text" placeholder="User Name"></p>
-              <p><span>Password</span> <input type="password" placeholder="Password"></p>
-              <p><label><input type="checkbox"><span>Remember Me</span></label></p>
-              <p class="kode-submit"><a href="#">Lost Your Password</a> <input class="thbg-colortwo" type="submit" value="Sign in"></p>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="myModalTwo" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header thbg-color">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Register</h4>
-          </div>
-          <div class="modal-body">
-            <form class="kode-loginform">
-              <p><span>Email</span> <input type="text" placeholder="Email"></p>
-              <p><span>Password</span> <input type="password" placeholder="Password"></p>
-              <p><span>Retype Password</span> <input type="password" placeholder="Retype Password"></p>
-              <p><label><input type="checkbox"><span>Remember Me</span></label></p>
-              <p class="kode-submit"><a href="#">Lost Your Password</a> <input class="thbg-colortwo" type="submit" value="Sign Up"></p>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
     <!--// Wrapper //-->
-
+     @section('auth')
     <!-- jQuery (necessary for JavaScript plugins) -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-      
+
     <script src="js/jquery.countdown.js"></script>
 	<script src="js/jquery.bxslider.min.js"></script>
 	<script src="js/bootstrap-progressbar.js"></script>
