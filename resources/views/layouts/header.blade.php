@@ -12,18 +12,24 @@
 					</ul>
 				</div>
                 <div class="col-md-6">
-                  <ul class="kode-userinfo">	
+                  <ul class="kode-userinfo">
                     <li><a href="#"><i class="fa fa-shopping-cart"></i> Корзина</a></li>
-                    <li><a href="#"><i class="fa fa-user"></i> Аккаунт</a></li>
+                      @if (!Auth::check())
+                    <li><a href="#"><i class="fa fa-user-circle-o"></i> Гость</a></li>
                     <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in"></i> Логин</a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#myModalTwo"><i class="fa fa-user-plus"></i> Регистрация</a></li>
+                    <li style="border-right: 1px solid rgba(255, 255, 255, 0.4);"><a href="#" data-toggle="modal" data-target="#myModalTwo"><i class="fa fa-user-plus"></i> Регистрация</a></li>
+                      @else
+                          <li><a href="#"><i class="fa fa-user-circle-o"></i>blackbird</a></li>
+                          <li><a href="#"><i class="fa fa-money"></i>Баланс: 15900 руб.</a></li>
+                          <li style="border-right: 1px solid rgba(255, 255, 255, 0.4);"><a href="/logout"data-target="#myModalTwo"><i class="fa fa-sign-out"></i> Выход</a></li>
+                      @endif
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         <!--// TopBaar //-->
-		
+
 		<div class="header-8">
 			<div class="container">
 				<!--NAVIGATION START-->
@@ -34,22 +40,22 @@
 						 <li><a href="/team_info">О нас</a></li>
                           <li><a href="/">Новости</a>
                             <ul class="children">
-                              <li><a href="/blog_large">CSGO</a></li>                         
+                              <li><a href="/blog_large">CSGO</a></li>
                             </ul>
                           </li>
                           <li><a href="/">Матчи</a>
                             <ul class="children">
                               <li><a href="/fixer_list">Ставки</a></li>
                             </ul>
-                          </li	
+                          </li
 					</ul>
 				</div>
-				<!--NAVIGATION END--> 
-				<!--LOGO START-->	
+				<!--NAVIGATION END-->
+				<!--LOGO START-->
 				<div class="logo">
 					<a href="/index" class="logo"><img src="images/logo.png" alt=""></a>
 				</div>
-				<!--LOGO END-->	
+				<!--LOGO END-->
 				<!--NAVIGATION START-->
 				<div class="kode-navigation">
 					<ul>
@@ -64,7 +70,7 @@
 							  <li><a href="/product_list">Скины</a></li>
 							</ul>
 						  </li>
-                          
+
                           <li class="last"><a href="/">Обратная связь</a>
                             <ul class="children">
                               <li><a href="/contact_ustwo">Почта</a></li>
@@ -72,11 +78,11 @@
                           </li>
 					</ul>
 				</div>
-				<!--NAVIGATION END-->  
-                    
+				<!--NAVIGATION END-->
+
                       <!-- Brand and toggle get grouped for better mobile display -->
 				 <nav class="navbar navbar-default">
-                    
+
                       <!-- Brand and toggle get grouped for better mobile display -->
                       <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
@@ -128,5 +134,5 @@
 			</div>
 		</div>
       </header>
-	  
+
 	  @yield('mainbanner')

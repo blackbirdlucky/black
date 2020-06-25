@@ -20,3 +20,10 @@ Route::get('/fixer_list', "ApiController@fixer_listAction" );
 Route::get('/player_list', "ApiController@player_listAction" );
 Route::get('/product_list', "ApiController@product_listAction" );
 Route::get('/team_info', "ApiController@team_infoAction" );
+
+Route::get('/auth', "AuthController@auth" );
+Route::get('/registration', "AuthController@registration" );
+
+Route::middleware('auth')->group(function() {
+    Route::get('/logout', "AuthController@logout");
+});

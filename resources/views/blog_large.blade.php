@@ -1,4 +1,4 @@
-@extends('layouts.header')
+    @extends('layouts.header')
 @extends('layouts.footer')
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +18,7 @@
     <link href="css/color.css" rel="stylesheet">
     <link href="css/flexslider.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
-      
+
     <link href="css/responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -29,7 +29,7 @@
     <![endif]-->
   </head>
   <body>
-    
+
      <!--// Wrapper //-->
     <div class="kode-wrapper">
 
@@ -60,75 +60,31 @@
                   <div class="kode-blog-list kode-fullwidth-blog">
                     <ul class="row">
 
-                      <li class="col-md-12">
-                        <div class="kode-time-zoon">
-                          <time datetime="2008-02-14 20:00">04 <span>July</span></time>
-                          <h5><a href="#">MIBR оштрафовала fer за "расистские" высказывания</a></h5>
-                        </div>
-                        <figure><a href="#"><img src="extra-images/blogfull-width-1.jpg" alt=""></a></figure>
-                        <div class="kode-blog-info">
-                          <ul class="kode-blog-options">
-                            <li><a href="#"><i class="fa fa-user"></i> blackbird</a></li>
-                            <li><a href="#"><i class="fa fa-comment"></i> 15 Комментариев</a></li>
-                            <li><a href="#"><i class="fa fa-share-alt"></i> 128 Публикаций</a></li>
-                          </ul>
-                          <ul class="kode-team-network">
-                            <li><a class="fa fa-facebook" href="#"></a></li>
-                            <li><a class="fa fa-twitter" href="#"></a></li>
-                            <li><a class="fa fa-linkedin" href="#"></a></li>
-                          </ul>
-                          <p>MIBR оштрафовала Фернандо "fer" Альваренгу за неподобающее поведение во время прямой трансляции на личном Twitch-канале. Таким образом руководство команды отреагировало на возмущение бразильского сообщества оскорбительными жестами и высказываниями игрока, которые были восприняты как расистские.Накануне fer извинился за свое поведение. Он заверил, что у него нет никаких предубеждений, и это может подтвердить каждый, кто его хорошо знает.Предметом скандала стала вспыльчивая реакция Альваренга на просьбу одного из зрителей стрима не трогать слишком часто свои волосы. Бразилец ответил, что у написавшего сообщение пользователя "слишком жесткие и плохие волосы". Сообщество посчитало высказывание расистским, поскольку в Бразилии такие волосы свойственны тем, у кого в роду больше выходцев из Африки.</p>
-                          <a href="#" class="kode-modrenbtn thbg-colorhover">Подробнее</a>
-
-                        </div>
-                      </li>
-                      <li class="col-md-12">
-                        <div class="kode-time-zoon">
-                          <time datetime="2008-02-14 20:00">03 <span>July</span></time>
-                          <h5><a href="#">Pimp: "Победа NAVI на IEM Katowice 2020 выглядит случайностью"</a></h5>
-                        </div>
-                        <figure><a href="#"><img src="extra-images/blogfull-width-2.jpg" alt=""></a></figure>
-                        <div class="kode-blog-info">
-                          <ul class="kode-blog-options">
-                            <li><a href="#"><i class="fa fa-user"></i> blackbird</a></li>
-                            <li><a href="#"><i class="fa fa-comment"></i> 33 Комментариев</a></li>
-                            <li><a href="#"><i class="fa fa-share-alt"></i> 12 Публикаций</a></li>
-                          </ul>
-                          <ul class="kode-team-network">
-                            <li><a class="fa fa-facebook" href="#"></a></li>
-                            <li><a class="fa fa-twitter" href="#"></a></li>
-                            <li><a class="fa fa-linkedin" href="#"></a></li>
-                          </ul>
-                          <p>Аналитик Якоб "Pimp" Виннече считает, что победа Natus Vincere на Intel Etreme Masters в Катовице является случайностью, поскольку на последних турнирах команда была "очень тусклой". Об этом он написал в своем Twitter. В комментариях к публикации Данкан "Thorin" Шилдс не согласился со своим коллегой. По его мнению, такие выводы можно было бы сделать только в случае безуспешного выступления "рожденных побеждать" на следующих трех LAN-турнирах после IEM Katowice 2020. После победы в Катовице Natus Vincere заняли четвертое место на ESL Pro League S11 Europe и не вышли из группы на ESL One: Road to Rio для СНГ. В настоящее время команда принимает участие в DreamHack Masters Spring 2020, где по результатам группового этапа прошла в верхнюю сетку плей-офф.</p>
-                          <a href="#" class="kode-modrenbtn thbg-colorhover">Подробнее</a>
-
-                        </div>
-                      </li>
-                      <li class="col-md-12">
-                        <div class="kode-time-zoon">
-                          <time datetime="2008-02-14 20:00">02 <span>July</span></time>
-                          <h5><a href="#">Qikert о YEKINDAR: "Он очень хорош во всех аспектах игры"</a></h5>
-                        </div>
-                        <figure><a href="#"><img src="extra-images/blogfull-width-3.jpeg" alt=""></a></figure>
-                        <div class="kode-blog-info">
-                          <ul class="kode-blog-options">
-                            <li><a href="#"><i class="fa fa-user"></i> blackbird</a></li>
-                            <li><a href="#"><i class="fa fa-comment"></i> 150 Комментариев</a></li>
-                            <li><a href="#"><i class="fa fa-share-alt"></i> 230 Публикаций</a></li>
-                          </ul>
-                          <ul class="kode-team-network">
-                            <li><a class="fa fa-facebook" href="#"></a></li>
-                            <li><a class="fa fa-twitter" href="#"></a></li>
-                            <li><a class="fa fa-linkedin" href="#"></a></li>
-                          </ul>
-                          <p>Игрок Virtus.pro Алексей "Qikert" Голубев в интервью для клубного YouTube-канала прокомментировал последние выступления своей команды. По его словам, улучшению результатов поспособствовал приход Марекса "YEKINDAR" Галинскиса. Вместе с тем Qikert отметил, что новый тиммейт "медведей" хорошо влился в коллектив и оказался игроком очень высокого уровня. YEKINDAR присоединился к Virtus.pro 23 мая. В основном составе 20-летний латыш заменил Тимура "buster" Тулепова, который, по словам генерального директора клуба Сергея Гламазды, нуждался в отдыхе и будет возвращен в стартовую пятерку после отпуска.</p>
-                          <a href="#" class="kode-modrenbtn thbg-colorhover">Подробнее</a>
-
-                        </div>
-                      </li>
-                      
+                      @foreach($blog_large as $blog_large)
+                          <li class="col-md-12">
+                            <div class="kode-time-zoon">
+                              <time datetime="2008-02-14 20:00">04 <span>July</span></time>
+                              <h5><a href="#">{{$blog_large->title}}</a></h5>
+                            </div>
+                            <figure><a href="#"><img src="{{$blog_large->img_url}}" alt=""></a></figure>
+                            <div class="kode-blog-info">
+                                <ul class="kode-blog-options">
+                                <li><a href="#"><i class="fa fa-user"></i>{{$blog_large->login}}</a></li>
+                                <li><a href="#"><i class="fa fa-comment"></i> 15 Комментариев</a></li>
+                                <li><a href="#"><i class="fa fa-share-alt"></i> 128 Публикаций</a></li>
+                              </ul>
+                                <ul class="kode-team-network">
+                                    <li><a class="fa fa-facebook" href="#"></a></li>
+                                    <li><a class="fa fa-twitter" href="#"></a></li>
+                                    <li><a class="fa fa-linkedin" href="#"></a></li>
+                                </ul>
+                                <p>{{$blog_large->description}}</p>
+                              <a href="#" class="kode-modrenbtn thbg-colorhover">Подробнее</a>
+                            </div>
+                          </li>
+                      @endforeach
                     </ul>
-                    
+
                     <!--// Pagination //-->
                     <div class="pagination">
                       <a href="#"><i class="fa fa-angle-double-left"></i></a>
@@ -145,7 +101,7 @@
                 </div>
 
                 <aside class="kode-pagesidebar col-md-3">
-                  
+
                   <div class="widget tab-widget">
 
                     <!-- Nav tabs -->
@@ -223,7 +179,7 @@
                             </div>
                           </li>
                         </ul>
-                      </div>                  
+                      </div>
                     </div>
                   </div>
 
@@ -307,9 +263,9 @@
                       </li>
                     </ul>
                   </div>
-				  
+
                   <div class="widget kode-twitter-widget">
-                    
+
                     <div class="twitter-info">
                       <h6>О новостях CSGO</h6>
                       <span>Подслушано в Twitter'e</span>
@@ -353,7 +309,7 @@
                       </li>
                     </ul>
 
-                  </div>               
+                  </div>
                 </aside>
 
               </div>
@@ -382,9 +338,9 @@
         </div>
       </div>
       <!--// NewsLatter //-->
-	 
+
 	 @section('footer')
-	 
+
     </div>
     <!--// Wrapper //-->
     <!-- Modal -->
@@ -434,7 +390,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-      
+
     <script src="js/jquery.countdown.js"></script>
 	<script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
 	<script src="js/bootstrap-progressbar.js"></script>

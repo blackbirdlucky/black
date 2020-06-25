@@ -1,3 +1,4 @@
+@extends('layouts.auth')
 @extends('layouts.header')
 @extends('layouts.footer')
 <!DOCTYPE html>
@@ -18,7 +19,7 @@
     <link href="css/color.css" rel="stylesheet">
     <link href="css/flexslider.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
-	<link href="css/jquery.bxslider.css" rel="stylesheet">    
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
 	<link href="css/prettyphoto.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
@@ -30,10 +31,10 @@
     <![endif]-->
   </head>
   <body>
-    
+
     <!--// Wrapper //-->
     <div class="kode-wrapper">
-      
+
 	  @section('mainbanner')
 
       <!--// Main Banner //-->
@@ -43,9 +44,9 @@
             <li>
               <img src="extra-images/slide3.jpg" alt="" />
               <div class="container">
-                <div class="kode-caption">       
+                <div class="kode-caption">
                 	<h2>Blackbets cybersport</h2>
-                    <div class="clearfix"></div>        
+                    <div class="clearfix"></div>
                   <p>Вы можете сделать ставку <br>на одно из существующих событий<br>по ссылке ниже</p>
                   <div class="clearfix"></div>
                   <a class="kode-modren-btn thbg-colortwo" href="#">Подробнее</a>
@@ -55,9 +56,9 @@
             <li>
               <img src="extra-images/slide2.jpeg" alt="" />
               <div class="container">
-                <div class="kode-caption">       
-                	<h2>Разнообразие ставок</h2> 
-                    <div class="clearfix"></div>          
+                <div class="kode-caption">
+                	<h2>Разнообразие ставок</h2>
+                    <div class="clearfix"></div>
                   <p>У нас вы можете выбрать не только исход матча <br>но и дополнительные события</p>
                   <div class="clearfix"></div>
                   <a class="kode-modren-btn thbg-colortwo" href="#">Подробнее</a>
@@ -67,9 +68,9 @@
             <li>
               <img src="extra-images/slide1.jpg" alt="" />
               <div class="container">
-                <div class="kode-caption">       
+                <div class="kode-caption">
                 	<h2>Вывод средств</h2>
-                    <div class="clearfix"></div>        
+                    <div class="clearfix"></div>
                   <p>Вывод средств на blackbets осуществляется совершенно без комиссии</p>
                   <div class="clearfix"></div>
                   <a class="kode-modren-btn thbg-colortwo" href="#">Подробнее</a>
@@ -83,7 +84,7 @@
 
       <!--// Main Content //-->
       <div class="kode-content">
-        
+
 		<section class="pick-event padding-30-topbottom margin-top-minus-40">
         	<div class="container">
             	<div class="heading">
@@ -116,10 +117,10 @@
                     </div>
                 </div>
             </div>
-        </section>		
+        </section>
 
         <!--// Page Content.last matches //-->
-		
+
  		<section class="kode-pagesection padding-30-topbottom bg-white">
 			<div class="container">
 				<div class="row">
@@ -169,9 +170,9 @@
 				</div>
           </div>
         </section>
-		
+
 		<!--// Page Content.last matches //-->
-		
+
 		<section class="kode-pagesection padding-30-topbottom bg-white">
 			<div class="container">
 				<div class="row">
@@ -221,9 +222,9 @@
 				</div>
           </div>
         </section>
-		
+
 		<!--// Page Content.last matches //-->
-		
+
 		<section class="kode-pagesection padding-30-topbottom bg-white">
 			<div class="container">
 				<div class="row">
@@ -273,11 +274,11 @@
 				</div>
           </div>
         </section>
-		
-		
-		
+
+
+
         <!--// Page Content //-->
-		
+
         <section class="kode-pagesection kode-sport-section kode-parallax">
           <div class="container">
             <div class="row">
@@ -302,7 +303,7 @@
               </div>
             </div>
         </section>
-		
+
         <!--// Page Content //-->
         <section class="kode-pagesection top_player_section" >
           <div class="container">
@@ -385,13 +386,13 @@
                   </div>
 
               </div>
-              
+
             </div>
           </div>
         </section>
-		
+
 		   <!--// Page Content //-->
-		
+
 		<section class="kode-pagesection kode-video-section kode-parallax kode-gallery-pretty">
         	<div class="container">
             	<h2>ESL One Rio 2020 Trailer #CSGOMajor</h2>
@@ -410,9 +411,9 @@
 						<p>DreamHack Masters Spring 2020 - Europe</p>
 						<h2><span class="left"></span>Предстоящие события<span class="right"></span></h2>
 					</div>
-				</div>	
+				</div>
                 <div class="col-md-8">
-                  
+
                   <table class="kode-table">
                     <thead>
                       <tr>
@@ -458,7 +459,7 @@
                 </div>
 
                 <div class="col-md-4">
-                  
+
                   <table class="kode-table kode-table-v2">
                     <thead>
                       <tr>
@@ -525,9 +526,9 @@
             </div>
         </section>
         <!--// Page Content //-->
-      
-	  
-		
+
+
+
 
         <!--// Page Content //-->
         <section class="kode-pagesection kode-parallax kode-dark-overlay kode-modern-expert-blogger">
@@ -538,7 +539,7 @@
 					<div class="heading heading-12 margin-top-bottom-30">
 						<h2 class="color-white" style="color:white" ><span class="left"></span>НОВОСТИ<span class="right"></span></h2>
 					</div>
-                  
+
                   <div class="kode-blog-list kode-large-blog">
                     <ul class="row">
 
@@ -603,10 +604,10 @@
         </section>
         <!--// Page Content //-->
 
-       
-		
+
+
 		<!--// Page Content //-->
-        <section class="kode-pagesection kode-parallax kode-dark-overlay kode-woo-products-style"> 
+        <section class="kode-pagesection kode-parallax kode-dark-overlay kode-woo-products-style">
           <div class="container">
             <div class="row">
 
@@ -689,17 +690,17 @@
 
                 </div>
               </div>
-              
+
             </div>
           </div>
         </section>
         <!--// Page Content //-->
-		
+
 		 <div class="kode-pagesection padding-top-bottom">
           <div class="container">
             <div class="row">
 
-                <div class="col-md-12">                  
+                <div class="col-md-12">
 				  	<div class="heading heading-12 margin-bottom-50">
 						<h2>Наши спонсоры</h2>
 						<p>Ты тоже можешь стать нашим партнером!</p>
@@ -708,7 +709,7 @@
         </div>
 		</div>
 		</div>
-		
+
 		<!--// Page Content //-->
         <div class="kode-pagesection padding-top-bottom">
           <div class="container">
@@ -729,9 +730,9 @@
             </div>
         </div>
         <!--// Page Content //-->
-		
-		
-		
+
+
+
 
       </div>
       <!--// Main Content //-->
@@ -754,57 +755,20 @@
         </div>
       </div>
       <!--// NewsLatter //-->
-	  
+
 	  @section('footer')
-	  
+
     </div>
     <!--// Wrapper //-->
     <!-- Mod	al -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header thbg-color">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Login To Your Account</h4>
-          </div>
-          <div class="modal-body">
-            <form class="kode-loginform">
-              <p><span>User Name</span> <input type="text" placeholder="User Name"></p>
-              <p><span>Password</span> <input type="password" placeholder="Password"></p>
-              <p><label><input type="checkbox"><span>Remember Me</span></label></p>
-              <p class="kode-submit"><a href="#">Lost Your Password</a> <input class="thbg-colortwo" type="submit" value="Sign in"></p>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Modal -->
-    <div class="modal fade" id="myModalTwo" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header thbg-color">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Register</h4>
-          </div>
-          <div class="modal-body">
-            <form class="kode-loginform">
-              <p><span>Email</span> <input type="text" placeholder="Email"></p>
-              <p><span>Password</span> <input type="password" placeholder="Password"></p>
-              <p><span>Retype Password</span> <input type="password" placeholder="Retype Password"></p>
-              <p><label><input type="checkbox"><span>Remember Me</span></label></p>
-              <p class="kode-submit"><a href="#">Lost Your Password</a> <input class="thbg-colortwo" type="submit" value="Sign Up"></p>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
 
+    @section('auth')
     <!-- jQuery (necessary for JavaScript plugins) -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.flexslider.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.countdown.js"></script>  
+    <script src="js/jquery.countdown.js"></script>
     <script src="js/waypoints-min.js"></script>
 	<script src="js/jquery.bxslider.min.js"></script>
 	<script src="js/bootstrap-progressbar.js"></script>
